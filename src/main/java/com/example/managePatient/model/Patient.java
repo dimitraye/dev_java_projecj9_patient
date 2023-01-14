@@ -17,13 +17,13 @@ public class Patient {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private int id;
-    private String prenom;
-    private String nom;
-    private String dateNaissance;
-    private String genre;
-    private int adressePostale;
-    private String telephone;
+    private Integer id;
+    private String given;
+    private String family;
+    private String dob;
+    private String sex;
+    private int address;
+    private String phone;
 
 
 }
